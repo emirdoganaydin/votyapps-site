@@ -148,3 +148,7 @@ body.v2 { background: #ffffff; color: #0b1b45; }
 @media (max-width: 700px) {
   .v2 .game-hero, .v2 .hero-slide { padding-top: 54vw; }
 }
+.v2 .shots { align-items: center; }
+.v2 .shots img { width: 240px; }
+.v2 .shots img.wide { width: 520px; }
+@media (max-width: 700px) { .v2 .shots img { width: 200px; } .v2 .shots img.wide { width: 420px; } }
