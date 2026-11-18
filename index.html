@@ -3,111 +3,88 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Voty Apps — Her gün açtığın küçük Türkçe uygulamalar</title>
-<meta name="description" content="Voty Apps, günlük alışkanlık kuran küçük ve özenli Türkçe uygulamalar geliştirir. İlk oyunumuz: Bilmece Avcısı.">
-<meta property="og:title" content="Voty Apps — Her gün açtığın küçük Türkçe uygulamalar">
-<meta property="og:description" content="Voty Apps, günlük alışkanlık kuran küçük ve özenli Türkçe uygulamalar geliştirir. İlk oyunumuz: Bilmece Avcısı.">
-<meta property="og:image" content="https://votyapps.com/assets/img/bilmece-avcisi-ikon.png">
+<title>Voty Apps — Türk kültüründen mobil oyunlar</title>
+<meta name="description" content="Voty Apps oyunları: Mangala & Matrak ve Bilmece Avcısı. iOS ve Android'de çok yakında.">
+<meta property="og:title" content="Voty Apps — Türk kültüründen mobil oyunlar">
+<meta property="og:description" content="Voty Apps oyunları: Mangala & Matrak ve Bilmece Avcısı. iOS ve Android'de çok yakında.">
+<meta property="og:image" content="https://votyapps.com/assets/mangala/og.jpg">
+<link rel="alternate" hreflang="en" href="https://votyapps.com/en/"><link rel="alternate" hreflang="tr" href="https://votyapps.com/">
+<script>try{var p=localStorage.getItem('lang');if(p!=='tr'&&!/^tr/i.test(navigator.language||'')&&p!=='tr'){if(!p)location.replace('en/index.html'+location.hash)}}catch(e){}</script>
 <link rel="icon" href="assets/img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/v2.css">
 </head>
-<body>
-<header class="top"><div class="wrap">
-  <a class="brand" href="index.html"><svg class="" viewBox="0 0 96 96" aria-hidden="true"><rect width="96" height="96" rx="26" fill="#0b1b45"/><path d="M27 50 42 65 70 32" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>voty<small>apps</small></span></a>
-  <nav class="nav"><a href="index.html" aria-current=page class=hide-sm>Ana sayfa</a><a href="bilmece-avcisi/index.html">Bilmece Avcısı</a><a href="hakkimizda/index.html">Hakkımızda</a><a href="bilmece-avcisi/destek/index.html" class=hide-sm>Destek</a></nav>
+<body class="v2">
+<header class="bar"><div class="wrap">
+  <a class="logo" href="index.html"><svg viewBox="0 0 96 96" aria-hidden="true"><rect width="96" height="96" rx="26" fill="#ffffff"/><path d="M27 50 42 65 70 32" fill="none" stroke="#111318" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>voty<small>apps</small></span></a>
+  <nav><a href="oyunlar/index.html">Oyunlar</a><a href="hakkimizda/index.html">Hakkımızda</a><a href="destek/index.html">Destek</a><a class="lang" href="en/index.html" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a></nav>
 </div></header>
 <main>
 
-<div class="slider" aria-roledescription="slider">
-  <div class="slides">
-    <section class="slide game" aria-label="1 / 3"><div class="wrap">
-      <div>
-        <div class="label">Yeni oyunumuz</div>
+<section class="hero">
+  <div class="hero-slides">
+    <a class="hero-slide" href="mangala/index.html" style="background-image:url(assets/mangala/key-art-action.webp)">
+      <div class="wrap"><div class="hero-copy">
+        <div class="eyebrow">Yeni oyun</div>
+        <h1 class="cinzel">Mangala<br><small>&amp; Matrak</small></h1>
+        <p>Klasik Mangala, Osmanlı askerlerinin matrak dövüşüyle buluşuyor.</p>
+        <div class="soon"><span class="pill"><svg viewBox="0 0 24 24"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 7 4.6 8 3.7 9.5c-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6s1.8-.8 3.3-.8 2 .8 3.3.8 2.2-1.3 3-2.5c1-1.4 1.3-2.7 1.4-2.8-.1 0-2.8-1.1-2.8-4.4ZM14 5.2c.7-.8 1.1-1.9 1-3-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.2-.6 2.9-1.4Z"/></svg>iOS</span><span class="pill"><svg viewBox="0 0 24 24"><path d="M4 2.8v18.4c0 .4.4.7.8.5l10.4-9.2c.3-.3.3-.7 0-1L4.8 2.3c-.4-.2-.8.1-.8.5Zm12.6 10.6 2.7 2.4-11.4 6.5 8.7-8.9Zm2.7-5.2-2.7 2.4-8.7-8.9 11.4 6.5Zm.9.6 2.2 1.3c.5.3.5 1 0 1.3l-2.2 1.3-2.6-2 2.6-1.9Z"/></svg>Android</span><b>iOS ve Android'de çok yakında</b></div>
+      </div></div>
+    </a>
+    <a class="hero-slide" href="bilmece-avcisi/index.html" style="background-image:url(assets/img/bilmece-key-art.webp)">
+      <div class="wrap"><div class="hero-copy">
+        <div class="eyebrow">Bilmece oyunu</div>
         <h1>Bilmece Avcısı</h1>
-        <p class="lead">Çantası bilmeceyle dolu bir tilki seni bekliyor. 430 bilmece, günün bilmecesi ve ailecek oynanan parti modu.</p>
-        <div class="stores" style="margin-bottom:14px"><a class="btn btn-white" href="bilmece-avcisi/index.html">Oyunu keşfet</a><span class="btn btn-soft" aria-disabled="true">iPhone ve Android için yakında</span></div>
-      </div>
-      <div class="slide-art"><img src="assets/img/tilki-ana.webp" alt="Bilmece Avcısı'nın tilkisi"></div>
-    </div></section>
-    <section class="slide studio" aria-label="2 / 3"><div class="wrap">
-      <div>
-        <div class="label">Voty Apps</div>
-        <h1>Yapay zekâyla çalışan uygulama stüdyosu.</h1>
-        <p class="lead">Fırsatı veriyle buluyor, uygulamayı yapay zekâ ajanlarıyla üretiyoruz. Sonuç: Türkçe, gizliliğe saygılı, her gün açılan uygulamalar.</p>
-        <a class="btn btn-white" href="hakkimizda/index.html">Nasıl çalışıyoruz</a>
-      </div>
-      <div class="slide-art"><svg class="mark-big" viewBox="0 0 96 96" aria-hidden="true"><rect width="96" height="96" rx="26" fill="#ffffff"/><path d="M27 50 42 65 70 32" fill="none" stroke="#0b1b45" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-    </div></section>
-    <section class="slide next" aria-label="3 / 3"><div class="wrap">
-      <div>
-        <div class="label">Sırada</div>
-        <h1>Yeni uygulamalar yolda.</h1>
-        <p class="lead">Gündelik hayatı biraz kolaylaştıran yeni Türkçe uygulamaları hızla deniyoruz. Tutanı büyütüyor, tutmayanı bırakıyoruz. İlk duyan sen ol.</p>
-        <a class="btn btn-white" href="mailto:destek@votyapps.com?subject=Haber%20ver">Haber ver</a>
-      </div>
-      <div class="slide-art" style="font-size:120px;line-height:1">✦</div>
-    </div></section>
+        <p>Çantası bilmeceyle dolu bir tilki seni bekliyor. 430 bilmece, günün bilmecesi ve parti modu.</p>
+        <div class="soon"><span class="pill"><svg viewBox="0 0 24 24"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 7 4.6 8 3.7 9.5c-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6s1.8-.8 3.3-.8 2 .8 3.3.8 2.2-1.3 3-2.5c1-1.4 1.3-2.7 1.4-2.8-.1 0-2.8-1.1-2.8-4.4ZM14 5.2c.7-.8 1.1-1.9 1-3-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.2-.6 2.9-1.4Z"/></svg>iOS</span><span class="pill"><svg viewBox="0 0 24 24"><path d="M4 2.8v18.4c0 .4.4.7.8.5l10.4-9.2c.3-.3.3-.7 0-1L4.8 2.3c-.4-.2-.8.1-.8.5Zm12.6 10.6 2.7 2.4-11.4 6.5 8.7-8.9Zm2.7-5.2-2.7 2.4-8.7-8.9 11.4 6.5Zm.9.6 2.2 1.3c.5.3.5 1 0 1.3l-2.2 1.3-2.6-2 2.6-1.9Z"/></svg>Android</span><b>iOS ve Android'de çok yakında</b></div>
+      </div></div>
+    </a>
   </div>
-  <div class="dots"><button aria-label="Bilmece Avcısı"></button><button aria-label="Voty Apps"></button><button aria-label="Sırada"></button></div>
-  <div class="arrows"><button data-prev aria-label="Önceki">‹</button><button data-next aria-label="Sonraki">›</button></div>
-</div>
+  <div class="hero-dots"><button aria-label="Mangala &amp; Matrak"></button><button aria-label="Bilmece Avcısı"></button></div>
+</section>
 
-<section><div class="wrap">
-  <div class="label">Uygulamalarımız</div>
-  <h2>Şimdilik bir tilki ve yüzlerce bilmece</h2>
-  <div class="card app-card" style="margin-top:22px">
-    <img src="assets/img/bilmece-avcisi-ikon.png" alt="">
-    <div>
-      <h3>Bilmece Avcısı</h3>
-      <p>Tilkiyle bilmece çöz, seviye atla, ailenle parti modunda yarış. iPhone ve Android için yakında.</p>
-    </div>
-    <a class="btn btn-navy" href="bilmece-avcisi/index.html">İncele</a>
+<section class="block"><div class="wrap">
+  <h2 class="caps">Oyunlarımız</h2>
+  <p class="intro">Türk kültüründen beslenen, kısa ama tekrar tekrar açılan oyunlar yapıyoruz. Hesap yok, reklam yok, veri satışı yok.</p>
+  <div class="tiles">
+    <a class="tile" href="mangala/index.html">
+      <div class="tile-art" style="background-image:url(assets/mangala/key-art-action-960.webp)"></div>
+      <div class="tile-body"><img src="assets/mangala/mangala-ikon.png" alt=""><div><h3>Mangala &amp; Matrak</h3><p>Strateji · Masa oyunu · Online</p></div><span class="tag">Çok yakında</span></div>
+    </a>
+    <a class="tile" href="bilmece-avcisi/index.html">
+      <div class="tile-art" style="background-image:url(assets/img/bilmece-key-art-960.webp)"></div>
+      <div class="tile-body"><img src="assets/img/bilmece-avcisi-ikon.png" alt=""><div><h3>Bilmece Avcısı</h3><p>Bilmece · Kelime · Aile oyunu</p></div><span class="tag">Çok yakında</span></div>
+    </a>
   </div>
+  <a class="more" href="oyunlar/index.html">Tüm oyunlar →</a>
 </div></section>
 
-<section class="alt" id="nasil"><div class="wrap">
-  <div class="label">İlkelerimiz</div>
-  <h2>Yolu bul ya da yap. Teknoloji kullanıcıya hizmet etsin. Veri kullanıcının olsun.</h2>
-  <div class="grid3" style="margin-top:22px">
-    <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6l1-7Z"/></svg></div><h3>I shall either find a way or make one</h3><p>Hannibal'e atfedilen söz bizim çalışma biçimimiz: ya bir yol buluruz ya da bir yol yaparız. Pazarı her gün veriyle tarıyor, boşluğu bulduğumuzda uygulamayı yapay zekâ ajanlarıyla günler içinde iki platformda üretiyoruz.</p></div>
-    <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5M15 14c3 0 6 1.6 6 4.5"/></svg></div><h3>Technology to serve consumer</h3><p>Teknoloji kullanıcıya hizmet etmek için var. Her özelliği tek bir soruyla ölçeriz: kullanıcının gününe değer katıyor mu? Sade arayüz, kısa oturum, gerçek fayda.</p></div>
-    <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Data Privacy</h3><p>Veri kullanıcınındır. Hesap açtırmayız, kişisel veri satmayız; ölçümü yalnızca izinle ve kimliksiz yaparız. Kendi sunucumuzda kişisel veri tutmayız.</p></div>
+<section class="block split"><div class="wrap">
+  <div>
+    <h2 class="caps">Hakkımızda</h2>
+    <p class="intro">Voty Apps, kurucusu Emir Doğan Aydın ile yapay zekâ ajanlarının birlikte çalıştığı bir mobil oyun stüdyosu. Fırsatı veriyle buluyor, oyunu hızla üretip gerçek oyuncuların önüne koyuyoruz.</p>
+    <a class="more" href="hakkimizda/index.html">Daha fazla →</a>
   </div>
-  <div class="stats">
-    <div><b>6 gün</b><span>İlk kod satırından iki platformda test edilebilir sürüme (Bilmece Avcısı)</span></div>
-    <div><b>2 mağaza · 3 ülke</b><span>Botlarımızın her gün ve her hafta taradığı sıralamalar</span></div>
-    <div><b>0 ₺</b><span>Sunucu maliyeti: kendi sunucumuz yok, kişisel veri tutmuyoruz</span></div>
+  <div class="values">
+    <div><b>Yolu bul ya da yap</b><span>Engel çıktığında durmayız, çözüm üretiriz.</span></div>
+    <div><b>Oyuncu için teknoloji</b><span>Her özellik oyuncunun gününe değer katmalı.</span></div>
+    <div><b>Veri oyuncunundur</b><span>Hesap açtırmayız, veri satmayız; ölçüm yalnızca izinle.</span></div>
   </div>
-  <p style="margin-top:22px"><a href="hakkimizda/index.html">Hakkımızda ve yaklaşımımız →</a></p>
 </div></section>
-
-</main>
-<footer><div class="wrap">
-  <div><a class="brand" href="index.html" style="text-decoration:none"><svg class="" viewBox="0 0 96 96" aria-hidden="true"><rect width="96" height="96" rx="26" fill="#ffffff"/><path d="M27 50 42 65 70 32" fill="none" stroke="#0b1b45" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>voty<small style="color:rgba(255,255,255,.6)">apps</small></span></a>© 2026 Voty Apps · Emir Doğan Aydın<br><a href="mailto:destek@votyapps.com">destek@votyapps.com</a></div>
-  <div class="links">
-    <a href="bilmece-avcisi/gizlilik/index.html">Gizlilik politikası</a>
-    <a href="bilmece-avcisi/kvkk/index.html">KVKK aydınlatma metni</a>
-    <a href="bilmece-avcisi/kosullar/index.html">Kullanım koşulları</a>
-    <a href="bilmece-avcisi/destek/index.html">Destek</a>
-  </div>
-</div></footer>
 <script>
-(function(){
-  var box=document.querySelector('.slides'); if(!box) return;
-  var slides=[].slice.call(box.children), dots=[].slice.call(document.querySelectorAll('.dots button'));
-  var cur=0, timer=null, reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function go(i){ cur=(i+slides.length)%slides.length; box.scrollTo({left:cur*box.clientWidth, behavior: reduce?'auto':'smooth'}); mark(); }
-  function mark(){ dots.forEach(function(d,i){ d.setAttribute('aria-current', i===cur?'true':'false'); }); }
-  dots.forEach(function(d,i){ d.addEventListener('click', function(){ go(i); restart(); }); });
-  var prev=document.querySelector('[data-prev]'), next=document.querySelector('[data-next]');
-  if(prev) prev.addEventListener('click', function(){ go(cur-1); restart(); });
-  if(next) next.addEventListener('click', function(){ go(cur+1); restart(); });
-  box.addEventListener('scroll', function(){ var i=Math.round(box.scrollLeft/box.clientWidth); if(i!==cur){ cur=i; mark(); } }, {passive:true});
-  function restart(){ if(timer) clearInterval(timer); if(!reduce) timer=setInterval(function(){ go(cur+1); }, 7000); }
-  box.addEventListener('pointerdown', function(){ if(timer) clearInterval(timer); });
-  mark(); restart();
-})();
+(function(){var box=document.querySelector('.hero-slides');if(!box)return;var s=[].slice.call(box.children),d=[].slice.call(document.querySelectorAll('.hero-dots button')),c=0,tm;
+function go(i){c=(i+s.length)%s.length;box.scrollTo({left:c*box.clientWidth,behavior:'smooth'});m()}function m(){d.forEach(function(b,i){b.setAttribute('aria-current',i===c?'true':'false')})}
+d.forEach(function(b,i){b.addEventListener('click',function(){go(i);r()})});box.addEventListener('scroll',function(){var i=Math.round(box.scrollLeft/box.clientWidth);if(i!==c){c=i;m()}},{passive:true});
+function r(){clearInterval(tm);if(!matchMedia('(prefers-reduced-motion: reduce)').matches)tm=setInterval(function(){go(c+1)},6500)}m();r()})();
 </script>
+</main>
+<footer class="foot"><div class="wrap">
+  <div class="foot-top">
+    <div><a class="logo" href="index.html"><svg viewBox="0 0 96 96" aria-hidden="true"><rect width="96" height="96" rx="26" fill="#ffffff"/><path d="M27 50 42 65 70 32" fill="none" stroke="#111318" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>voty<small>apps</small></span></a><a class="mail" href="mailto:destek@votyapps.com">destek@votyapps.com</a></div>
+    <div><h4>Oyunlar</h4><a href="mangala/index.html">Mangala & Matrak</a><a href="bilmece-avcisi/index.html">Bilmece Avcısı</a></div><div><h4>Voty Apps</h4><a href="hakkimizda/index.html">Hakkımızda</a><a href="destek/index.html">Destek</a></div><div><h4>Yasal</h4><a href="gizlilik/index.html">Gizlilik politikası</a><a href="kvkk/index.html">KVKK aydınlatma metni</a><a href="kosullar/index.html">Kullanım koşulları</a></div>
+  </div>
+  <div class="foot-bottom">© 2026 Voty Apps · Emir Doğan Aydın</div>
+</div></footer>
 </body>
 </html>
