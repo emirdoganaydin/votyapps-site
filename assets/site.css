@@ -157,3 +157,35 @@ footer .brand { color: var(--white); margin-bottom: 8px; }
   .doc td { border: 0; padding: 6px 10px; }
   .doc td:first-child { font-weight: 700; color: var(--navy, #0b1b45); }
 }
+
+/* ---------- Mangala & Matrak ---------- */
+.nav a.lang { border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; font-weight: 700; font-size: 14px; }
+.slide.mangala { background: linear-gradient(100deg, #1c0f1a 0%, rgba(28,15,26,.92) 40%, rgba(28,15,26,.45) 75%, rgba(28,15,26,.2) 100%), url(mangala/bogaz.webp) center/cover; }
+.slide.mangala .label { color: #f2c75c; }
+.cinzel { font-family: "Cinzel", Georgia, serif; font-weight: 900; letter-spacing: .02em; color: #f2c75c; text-shadow: 0 3px 0 #7a3d0c; }
+.cinzel small { display: block; font-size: .42em; font-weight: 700; color: #fff3dc; letter-spacing: .3em; text-shadow: none; margin-top: 6px; }
+.slide-art.duo { display: flex; align-items: flex-end; }
+.slide-art.duo img { width: min(240px, 46%); filter: drop-shadow(0 22px 34px rgba(0,0,0,.5)); }
+.slide-art.duo img.flip { transform: scaleX(-1); margin-left: -30px; }
+.step-no { width: 40px; height: 40px; border-radius: 999px; background: var(--navy); color: #fff; display: grid; place-items: center; font-weight: 800; margin-bottom: 12px; }
+.soldiers { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; margin-top: 22px; }
+.soldier { margin: 0; background: #fff; border: 1px solid var(--line); border-radius: var(--r-xl); padding: 14px 10px 16px; text-align: center; }
+.soldier img { width: 100%; height: 150px; object-fit: contain; }
+.soldier figcaption b { display: block; font-size: 17px; }
+.soldier figcaption span { display: block; font-size: 14px; color: var(--muted); line-height: 1.35; }
+.boards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
+.boards figure { margin: 0; text-align: center; font-weight: 700; }
+.boards img { width: 100%; border-radius: var(--r-lg); }
+.app-card + .app-card { margin-top: 14px; }
+@media (max-width: 860px) {
+  .soldiers { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .slide-art.duo { justify-content: center; }
+  .slide-art.duo img { width: 150px; }
+}
+@media (max-width: 560px) {
+  .boards { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .top .brand span small { display: none; }
+  .nav { gap: 12px; font-size: 15px; }
+}
