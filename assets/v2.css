@@ -152,3 +152,7 @@ body.v2 { background: #ffffff; color: #0b1b45; }
 .v2 .shots img { width: 240px; }
 .v2 .shots img.wide { width: 520px; }
 @media (max-width: 700px) { .v2 .shots img { width: 200px; } .v2 .shots img.wide { width: 420px; } }
+
+/* Mangala oyun logosu (görsel) */
+.hero-copy h1.game-logo { margin: 0 0 14px; line-height: 0; }
+.hero-copy h1.game-logo img { width: min(440px, 82vw); height: auto; filter: drop-shadow(0 12px 24px rgba(0,0,0,.45)); }
